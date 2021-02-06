@@ -16,6 +16,13 @@ namespace statistical_reports
         public Form1()
         {
             InitializeComponent();
+
+            for (int i = 65; i <= 90; i ++)
+            {
+
+                comboBox1.Items.Add((char)i);
+
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -51,16 +58,14 @@ namespace statistical_reports
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 secondForm = new Form2();
-
-            secondForm.Show();
+            char l = (char)comboBox1.SelectedItem;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form3 thirdForm = new Form3();
+            Form2 secondForm = new Form2();
 
-            thirdForm.Show();
+            secondForm.Show();
         }
 
     }
