@@ -27,4 +27,3 @@ C:\Users\juanf\Documents\GitHub\statistical-reports\obj\Debug\en-FI\statistical-
 C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical_reports.Form2.resources
 C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical_reports.Form3.resources
 C:\Users\juanf\Documents\GitHub\statistical-reports\obj\Debug\statistical_reports.Form2.resources
-C:\Users\juanf\Documents\GitHub\statistical-reports\obj\Debug\statistical_reports.Form3.resources
