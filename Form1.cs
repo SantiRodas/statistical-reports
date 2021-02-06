@@ -46,6 +46,23 @@ namespace statistical_reports
             }
 
             dataGridView1.DataSource = dt;
+
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 secondForm = new Form2();
+
+            secondForm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 thirdForm = new Form3();
+
+            thirdForm.Show();
+        }
+
     }
+
 }
