@@ -1,0 +1,13 @@
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\bin\Debug\statistical-reports.exe.config
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\bin\Debug\statistical-reports.exe
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\bin\Debug\statistical-reports.pdb
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical-reports.csprojAssemblyReference.cache
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical_reports.Form1.resources
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical_reports.Properties.Resources.resources
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical-reports.csproj.GenerateResource.cache
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical-reports.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical-reports.exe
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical-reports.pdb
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\bin\Debug\en-FI\statistical-reports.resources.dll
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\statistical_reports.Form1.en-FI.resources
+C:\Users\Santiago\Desktop\2021 - 1\1. Proyecto integrador\1. Tareas\Tarea 1\statistical-reports\obj\Debug\en-FI\statistical-reports.resources.dll

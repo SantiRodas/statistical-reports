@@ -16,5 +16,12 @@ namespace statistical_reports
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+
+            label2.Text = openFileDialog1.FileName;
+        }
     }
 }
