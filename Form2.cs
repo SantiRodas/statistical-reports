@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,24 +13,61 @@ namespace statistical_reports
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        private DataTable dataTable;
+        public Form2(DataTable dt)
         {
             InitializeComponent();
 
+            SortedList sl = new SortedList();
+
+            Hashtable dic = new Hashtable();
+
+            DataRowCollection rows = dt.Rows;
+
+            foreach(DataRow dr in rows)
+            {
+                object[] data = dr.ItemArray;
+
+               
+                if ((((string)data[4]).Trim()).Equals("Municipio")) {
+                    if (!dic.ContainsKey((string)data[2]))
+                    {
+                        dic.Add((string)data[2], 1);
+                    }
+                    else
+                    {
+                        int count = (int)dic[(string)data[2]];
+                        count++;
+
+                        dic[(string)data[2]] = count;
+                    }
+
+
+                }
+
+            }
+
+            IEnumerator en = dic.Keys.GetEnumerator();
+
+            bool check = en.MoveNext();
+
+            ArrayList list = new ArrayList();
+
             chart1.Titles.Add("Report 2");
-            chart1.Series["s1"].Points.AddXY("(Otro)", "35");
-            chart1.Series["s1"].Points.AddXY("Antioquia", "11");
-            chart1.Series["s1"].Points.AddXY("Boyaca", "10");
-            chart1.Series["s1"].Points.AddXY("Cundinamarca", "10");
-            chart1.Series["s1"].Points.AddXY("Santander", "7");
-            chart1.Series["s1"].Points.AddXY("Nariño", "5");
-            chart1.Series["s1"].Points.AddXY("Tolima", "4");
-            chart1.Series["s1"].Points.AddXY("Bolivar", "4");
-            chart1.Series["s1"].Points.AddXY("Cauca", "3");
-            chart1.Series["s1"].Points.AddXY("Valle del Cauca", "3");
-            chart1.Series["s1"].Points.AddXY("Norte de Santander", "3");
-            chart1.Series["s1"].Points.AddXY("Huila", "3");
-            chart1.Series["s1"].Points.AddXY("Choco", "2");
+
+            while (check)
+            {
+                string department = (string)en.Current;
+
+                list.Add(new KeyValuePair<int,string>((int)dic[department],department));
+
+                check = en.MoveNext();
+            }
+
+            list.Sort(new IComparable() { 
+            
+            });
+
 
         }
 

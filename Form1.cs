@@ -97,7 +97,7 @@ namespace statistical_reports
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form2 secondForm = new Form2();
+            Form2 secondForm = new Form2(dt);
 
             secondForm.Show();
         }
