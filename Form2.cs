@@ -24,11 +24,11 @@ namespace statistical_reports
 
             DataRowCollection rows = dt.Rows;
 
-            foreach(DataRow dr in rows)
+            foreach (DataRow dr in rows)
             {
                 object[] data = dr.ItemArray;
 
-               
+
                 if ((((string)data[4]).Trim()).Equals("Municipio")) {
                     if (!dic.ContainsKey((string)data[2]))
                     {
@@ -59,15 +59,20 @@ namespace statistical_reports
             {
                 string department = (string)en.Current;
 
-                list.Add(new KeyValuePair<int,string>((int)dic[department],department));
+                list.Add(new KeyValuePair<int, string>((int)dic[department], department));
 
                 check = en.MoveNext();
+
             }
 
-            list.Sort(new IComparable() { 
-            
-            });
+            list.Sort(Compare1);
 
+        }
+
+        static int Compare1(KeyValuePair<int, string> a, KeyValuePair<int, string> b)
+        {
+
+            return a.Key.CompareTo(b.Key);
 
         }
 
