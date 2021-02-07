@@ -214,10 +214,10 @@
     <value>Top</value>
   </data>
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 134</value>
+    <value>13, 104</value>
   </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>991, 431</value>
+    <value>991, 461</value>
   </data>
   <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>

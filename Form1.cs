@@ -20,6 +20,12 @@ namespace statistical_reports
         {
             InitializeComponent();
 
+            button2.Enabled = false;
+
+            button3.Enabled = false;
+
+            comboBox1.Enabled = false;
+
             for (int i = 65; i <= 90; i ++)
             {
 
@@ -57,42 +63,48 @@ namespace statistical_reports
 
             dataGridView1.DataSource = dt;
 
+            button2.Enabled = true;
+
+            button3.Enabled = true;
+
+            comboBox1.Enabled = true;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             char l = (char)comboBox1.SelectedItem;
-
+            
             dt.Clear();
+            
             dt.Columns.Clear();
+            
             dt.Rows.Clear();
-
+            
             string content = File.ReadAllText(openFileDialog1.FileName);
-
+            
             string[] splitContent = content.Split('\n');
-
+            
             string[] splitLine = splitContent[0].Split(',');
-
+            
             dt.Columns.Add(splitLine[0]);
             dt.Columns.Add(splitLine[1]);
             dt.Columns.Add(splitLine[2]);
             dt.Columns.Add(splitLine[3]);
             dt.Columns.Add(splitLine[4]);
-
+            
             for (int i = 1; i < splitContent.Length; i++)
             {
                 splitLine = splitContent[i].Split(',');
-
+                
                 if (splitLine[2][0] == l)
                 {
                     dt.Rows.Add(splitLine);
                 }
-                
             }
-
+            
             dataGridView1.DataSource = dt;
-
-
+        
         }
 
         private void button3_Click(object sender, EventArgs e)

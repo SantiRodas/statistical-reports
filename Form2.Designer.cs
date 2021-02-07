@@ -49,7 +49,7 @@ namespace statistical_reports
             series1.Legend = "Legend1";
             series1.Name = "s1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(388, 300);
+            this.chart1.Size = new System.Drawing.Size(683, 463);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -57,13 +57,15 @@ namespace statistical_reports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 325);
+            this.ClientSize = new System.Drawing.Size(707, 487);
             this.Controls.Add(this.chart1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pie chart";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
