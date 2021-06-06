@@ -1,7 +1,6 @@
 # Statistical reports
 This program allows generating a series of basic reports on the country's municipalities for the National Administrative Department of Statistics.
 
-
 ## Program Requirements
 * C#
 * Visual Studio
@@ -13,12 +12,10 @@ This program allows generating a series of basic reports on the country's munici
 
 ## Stages of construction
 * Analysis
-
-https://github.com/SantiRodas/statistical-reports/blob/master/docs/Functional%20requirements.pdf
+* [Requeriments](https://github.com/SantiRodas/statistical-reports/blob/master/docs/Functional%20requirements.pdf)
 
 * Design
-
-https://github.com/SantiRodas/statistical-reports/blob/master/docs/Class%20diagram.pdf
+* [Diagram of class](https://github.com/SantiRodas/statistical-reports/blob/master/docs/Class%20diagram.pdf)
 
 ## Tools used
 
@@ -32,7 +29,7 @@ https://github.com/SantiRodas/statistical-reports/blob/master/docs/Class%20diagr
 * Santiago Rodas Rodriguez
 
 ## License
-This project is under the license (GNU General Public License v3.0): https://github.com/SantiRodas/statistical-reports/blob/master/LICENSE
+* [GNU General Public License v3.0](https://github.com/SantiRodas/statistical-reports/blob/master/LICENSE)
 
 ## Windows
 
